@@ -25,7 +25,7 @@
       const onSubmitForm = (e) => {
         e.preventDefault();
         if(parseInt(value, 10) === firstNum * secondNum) {
-          setResult('정답: ' + value);
+          setResult((prevResult) => '정답: ' + value);
           setFirstNum(Math.ceil(Math.random() * 9));
           setSecondNum(Math.ceil(Math.random() * 9));
           setValue('');
