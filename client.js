@@ -15,7 +15,11 @@ import { hot } from 'react-hot-loader/root';
 // const Hot = hot(WordRelay);
 
 // 09_BaseballGame
-import BaseballGame from './09_BaseballGame';
+// import BaseballGame from './09_BaseballGame';
+// const Hot = hot(BaseballGame);
+
+// 10_BaseballGame
+import BaseballGame from './10_hooksBaseballGame';
 const Hot = hot(BaseballGame);
 
 ReactDOM.render(<Hot />, document.querySelector('#root'));
