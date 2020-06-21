@@ -11,7 +11,11 @@ import { hot } from 'react-hot-loader/root';
 // ReactDOM.render(<GuGuDan />, document.querySelector('#root'));
 
 // 08_hooksWordRelay
-import WordRelay from './08_hooksWordRelay';
-const Hot = hot(WordRelay);
+// import WordRelay from './08_hooksWordRelay';
+// const Hot = hot(WordRelay);
+
+// 09_BaseballGame
+import BaseballGame from './09_BaseballGame';
+const Hot = hot(BaseballGame);
 
 ReactDOM.render(<Hot />, document.querySelector('#root'));
