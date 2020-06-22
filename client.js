@@ -31,7 +31,15 @@ import { hot } from 'react-hot-loader/root';
 // const Hot = hot(PureComponentRenderTest);
 
 // 13_PureComponentBaseballGame
-import PureComponentBaseballGame from './13_PureComponentBaseballGame';
-const Hot = hot(PureComponentBaseballGame);
+// import PureComponentBaseballGame from './13_PureComponentBaseballGame';
+// const Hot = hot(PureComponentBaseballGame);
+
+// 15_ResponseCheck
+// import ResponseCheck from './15_ResponseCheck';
+// const Hot = hot(ResponseCheck);
+
+// 16_hooksResponseCheck
+import ResponseCheck from './16_hooksResponseCheck';
+const Hot = hot(ResponseCheck);
 
 ReactDOM.render(<Hot />, document.querySelector('#root'));
