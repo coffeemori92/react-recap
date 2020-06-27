@@ -47,7 +47,15 @@ import { hot } from 'react-hot-loader/root';
 // const Hot = hot(RSP);
 
 // 18_hooksRCP
-import RSP from './18_hooksRCP';
-const Hot = hot(RSP);
+// import RSP from './18_hooksRCP';
+// const Hot = hot(RSP);
+
+// 19_Lotto
+// import Lotto from './19_Lotto';
+// const Hot = hot(Lotto);
+
+// 20_hooksLotto
+import Lotto from './20_hooksLotto';
+const Hot = hot(Lotto);
 
 ReactDOM.render(<Hot />, document.querySelector('#root'));
