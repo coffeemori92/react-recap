@@ -39,7 +39,15 @@ import { hot } from 'react-hot-loader/root';
 // const Hot = hot(ResponseCheck);
 
 // 16_hooksResponseCheck
-import ResponseCheck from './16_hooksResponseCheck';
-const Hot = hot(ResponseCheck);
+// import ResponseCheck from './16_hooksResponseCheck';
+// const Hot = hot(ResponseCheck);
+
+// 17_RCP
+// import RSP from './17_RCP';
+// const Hot = hot(RSP);
+
+// 18_hooksRCP
+import RSP from './18_hooksRCP';
+const Hot = hot(RSP);
 
 ReactDOM.render(<Hot />, document.querySelector('#root'));
